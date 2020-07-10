@@ -1,0 +1,50 @@
+/* dCodes Framework:(c) TemplateAccess */
+
+a, a:hover, a:active{
+	text-decoration: none;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: nowrap;
+	background: #1d71ab !important;
+	font:normal 13px Arial,sans-serif;
+	width:100%;
+}
+
+
+.menu a{
+text-align: center;
+color: #fff;
+text-decoration: none;
+text-shadow: 1px 1px 1px #189eff;
+text-transform: uppercase;
+font-family: 'Doppio One', sans-serif;
+font-size: 15px;
+padding: 20px 25px;
+}
+
+.menu a:hover , .menu a:active{
+	text-decoration: none;
+	color: #fff;
+	background-color: #602D8D;
+}
+
+  @media only screen and (max-width:480px) {
+ 	ul.dc_mm-orange li a {
+		padding:20px 4.66px;
+		font-size:0.8em;
+	}
+	ul.dc_mm-orange li .sub-container {
+		padding-left:10px;
+	}
+	ul.dc_mm-orange li .sub li {
+		width:112px;
+	}
+	ul.dc_mm-orange li .sub-container.non-mega li {
+		width:112px;
+	}
+	ul.dc_mm-orange li a .dc-mega-icon {
+		display:none;
+	}	
+ }
